@@ -1,5 +1,8 @@
 name: 'Docker Test Image'
 description: 'Dockerfile test github action'
+branding:
+  icon: 'alert-triangle'
+  color: 'green'
 outputs:
   exit_code:
     description: 'exit successfully with 0'

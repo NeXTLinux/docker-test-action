@@ -18,7 +18,7 @@ runs:
 #    - run: echo testing ${{ inputs.test_dir}}
 #      shell: bash  
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@v2.1.0
+      uses: docker/setup-qemu-action@v2.2.0
     - id: test_docker
       run: |
         ${{ github.action_path }}/test_docker.sh . ${{ inputs.platform }}
